@@ -1,0 +1,61 @@
+B. JAWABAN
+
+1. Apa saja yang harus direncanakan oleh seorang database administrator?
+Jawab :
+• Struktur logikal database dan implementasinya secara fisik
+• Desain database secara keseluruhan
+• Strategi backup untuk database
+
+2. Jelaskan fungsi dari DBCA?
+Jawab :
+Membuat database, mengubah konfigurasi database, dan menghapus database.
+
+3. Sebutkan perbedaan - perbedaan 3 template yang ada
+Jawab :
+• Data Warehouse: Menyimpan data dalam periode lama dan menerima data dalam
+operasiread
+• Transaction Processing: Mengakomodasi banyak transaksi kecil
+• General Purpose: Bekerja dengan transaksi dan menyimpannya untuk waktu yang
+tidaklama
+
+4. Mengapa Unicode direkomendasikan sebagai karakter set sebuah database pada
+oracle?
+Jawab :
+karena Unicode memberikan fleksibilitas yang optimal, mendukung banyak teknologi
+Web, serta didukung banyak bahasa.
+
+5. Pada tahapan step 5, sebutkan account apa saja yang tersedia karakter set sebuah
+database pada oracle? kemudian jelaskan apa perbedaannya antara option “use different
+administrative password” dengan option “use the same administrative password for all
+account”?
+jawab :
+-SYS
+-SYSTEM
+-DBSNMP
+-SYSMN
+Use different administrative password digunakan untuk memerikan password pada
+masing masin akun yang tersedia dan setap akun dapat berbeda password
+Sedangkan Use the same administrative password for all digunakan untuk
+memberikan password pada semua akun dan sengan password yang sama.
+
+6. Pada recovery configuration, dimanakah file recovery database akan disimpan
+secaraDefault
+Jawab :
+(ORACLE_BASE)/flash_recorvery_
+
+7. Apa yang kan terjadi jika sebuah database di
+DROP??Jawab :
+menghapus semua file control dan semua file database yang tercantuk dalam file control.
+Ataudapat dibilang database akan sepenuhnya dihapus.
+
+8. Sebutkan langkah-langkah untuk melakukan Drop database menggunakan
+DCBA!Jawab :
+Pertama- tama harus memenuhi kondisi yang dipenuhi:
+*Database harus di mount dan tertutup
+*database harus di mount secara eksklusif – tidaak dalah mode “Shared”.
+*Database harus di mount secara
+RESTRICTEDSetelah itu ketikkan
+DROP DATABASE.
+
+-- MUHAMMAD REZA HIDAYAT 
+-- 50420900 

@@ -1,0 +1,38 @@
+B. JAWAB
+1) Apakah yang akan terjadi apabila field email pada tahap pertama dikosongkan/tidak isi
+? (point 20)
+Jika memasukan email maka akan ada peringatan saat proses instalasi
+Di anjurjan untuk mengisi email agar tidak dapat maslah keamanan
+
+2) Jelaskan perbedaan dari 3 pilihan instalasi pada tahap instalasi produk Oracle Database
+11g di atas ? (point 20)
+Yang pertama oracle database ini digunakan untuk mengatur dan membuat database
+baru
+yang kedua database software only ini sifat nya opsional digunakan untuk membuat
+database nya saja
+yang ketiga upgrade database di gunakan untuk mengubah atau mengupdate database
+yang sudah ada
+
+3) Apakah perbedaan Desktop Class dan Server Class ? (point 20)
+Perbedaan desktop class
+Penginstalan ini paling sesuai untuk laptop atau computer desktop ini termasuk
+database starter dan membutuhkan konfigurasi minimal
+Server class
+Kelas penginstalan ini untuk server seperti yang anda temukan di pusat data atau
+digunakan untuk mendukung apikasi tingkat perusahaan pilih kelas penginstalan ini
+jika anda memerlukan akses ke opsi konfigurasi lanjutan
+
+4) Mengapa tanda ceklist pada user SCOTT di atas dihilangkan pada tahap password
+management ? (point 20)
+Karena kita ingin memakai user scott untuk digunakan pada oracle ini karena scott di
+ssediakan untuk keperluan tutorial atau Latihan saja
+
+5) Sebutkan karakteristik penggunaan password untuk database yang direkomendasikan
+oleh Oracle! (point 20)
+Untuk memberikan fungsi password verifikasi lakukan kebutuhan password antara lain
+    1) Panjang minimum 4 karakter
+    2) Password tidak boleh sama dengan username
+    3) Password harus memiliki sedikit nya 1huruf 1 angka dan 1 huruf khusus
+
+-- MUHAMMAD REZA HIDAYAT 
+-- 50420900 

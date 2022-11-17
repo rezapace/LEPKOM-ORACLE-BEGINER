@@ -1,0 +1,36 @@
+## MASUK KE AKUN SCOTT
+
+# NOMOR 1 
+
+SET SERVEROUTPUT ON
+
+VARIABLE g_pesan  VARCHAR2(50)
+DECLARE
+BEGIN
+    :g_pesan  := 'Blok PL/SQL - PERTAMA SAYA NIHH REZA - 50420900';
+END;
+/
+PRINT g_pesan 
+
+#  NOMOR 2 
+
+SET SERVEROUTPUT ON
+
+VARIABLE g_char varchar2(50)
+VARIABLE g_num number
+DECLARE
+    v_char varchar2(50) := '42 adalah jawabannya | reza | 50420900';
+    v_num number := SUBSTR(v_char,1,2);
+begin
+   dbms_output.put_line('G_CHAR');
+   dbms_output.put_line('========================');
+   dbms_output.put_line(v_char);
+   dbms_output.put_line(' ');
+   dbms_output.put_line('G_NUM');
+   dbms_output.put_line(v_num);
+
+end;
+/
+
+-- MUHAMMAD REZA HIDAYAT 
+-- 50420900 
